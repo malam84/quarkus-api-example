@@ -6,7 +6,6 @@ attributes:
 components:
   - name: tools
     container:
-      name: udi-rhel8
       image: registry.redhat.io/devspaces/udi-rhel8
       env:
         - name: QUARKUS_HTTP_HOST
